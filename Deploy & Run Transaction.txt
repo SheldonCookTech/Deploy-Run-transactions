@@ -1,0 +1,36 @@
+pragma solidity >= 0.8.7;
+
+
+contract learnFunctions {
+    
+    uint a = 45;
+   function remotecontrolOpen (bool closedDoor, bool openDoor ) public view returns (bool) {
+   
+   }
+       function addValues() public view returns (uint) {
+       uint b = 3;
+       uint result = a + b;
+       return result;
+   }
+
+
+       function addNewValues() public view returns (uint) {
+       uint b = 5;
+       uint result = a + b;
+       return result;
+   
+   
+   }
+   
+  uint b = 4; 
+   
+    function multiplyCalculatorByFour (uint a) public view returns (uint) {
+        uint result = a * b;
+        return result;
+     }
+    
+         function divideCalculatorByFour(uint a) public view returns (uint) {
+        uint result = a / b;
+        return result;
+    }
+}
